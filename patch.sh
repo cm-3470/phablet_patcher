@@ -23,7 +23,7 @@ cd frameworks/av
 
 # Add Samsung WFD Service -- required for HWComposer
 git fetch https://github.com/cm-3470/android_frameworks_av.git cm-12.0
-git cherry-pick d4848efbd5650a48f93a784e5de248a13b830c04
+git cherry-pick d30a211cd835889ab38a112611265f33a7894485
 
 # stagefright: Add legacy MediaBuffer::acquireBuffer symbol
 git cherry-pick 7af55c5b5cf6a1369bc72869913703536c4faae9
