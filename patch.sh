@@ -28,5 +28,5 @@ cd frameworks/native
 
 # Revert "Remove Parcel::writeIntPtr."
 git fetch https://github.com/cm-3470/android_frameworks_native.git cm-12.1
-git cherry-pick ce3244f93e8c42ba0f67b449647d2c2e2b5c2f76
+git cherry-pick 4a7379958e9da92b69e359e541f809efd64ba006
 cd -
