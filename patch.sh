@@ -10,6 +10,14 @@ git fetch https://github.com/CyanogenMod/android_bionic cm-12.1
 git cherry-pick aa729cb8dd274ea5a6bfc6055a035780478b2d68
 cd -
 
+# BUILD
+cd build
+
+# Allow a device to generically define its own headers
+git fetch https://github.com/CyanogenMod/android_build.git cm-12.1
+git cherry-pick fbd04b338a856b8c484946d748202d6aa6b27158
+cd -
+
 # FRAMEWORK
 cd frameworks/av
 
